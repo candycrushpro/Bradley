@@ -1,0 +1,32 @@
+h1{color:blue;}
+img{
+    height: 200px;
+    width: 200px;
+}
+
+h2{
+    color: rgb(250,0,250)
+    
+}
+*{
+    color:green;
+}
+p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    }
+    body{
+        background-color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    } 
+    body{
+        text-align: left;
+
+    }
+    img{
+        float: right;
+        text-align: center;
+    }
