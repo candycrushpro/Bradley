@@ -1,11 +1,12 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-  /* background-image:url('https://cleanmyspace.com/wp-content/uploads/2017/08/how-to-hire-a-cleaning-service.jpg'); */
+  
     font-size: 1.3em;
+    background-image: url('https://st4.depositphotos.com/11911276/20333/v/600/depositphotos_203336708-stock-video-abstract-space-background-geometry-surfaces.jpg');
     /* background-repeat: no-repeat; */
     background-size: cover; 
-    background-color:rgb(20, 19, 19);
+    /* background-color:rgb(66, 5, 5); */
     /* opacity: 4; */
   
   }
@@ -51,7 +52,7 @@ body {
     text-transform:uppercase;
     text-decoration:none;
     display:block;
-    color:rgb(221, 10, 45);
+    color:rgb(218, 7, 147);
   }
   nav>ul>li>a:hover {
     box-shadow:0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
@@ -61,19 +62,28 @@ body {
   
 
 
-h1{
+#header{
+  /* position: fixed; */
     display: flex;
     justify-content: center;
-    color: blue;
+    color:rgb(151, 32, 32);
     border:2px solid pink;
-    background-color:rgb(44, 62, 66);
+    font-size: xx-large;
+
+    /* background-color:rgb(44, 62, 66); */
     font-style: oblique;
+    text-align: center;
 padding:18px;
+background-image:url('https://cleanmyspace.com/wp-content/uploads/2017/08/how-to-hire-a-cleaning-service.jpg');
+background-repeat:no-repeat;
+background-size: cover;
 
 
 }
 p{
   color:rgb(216, 207, 207);
+  font-family: 'Pathway Gothic One', sans-serif;
+  
 }
 em{
   color:blue;
@@ -82,6 +92,7 @@ h2{
   color: rgb(0, 204, 255);
   display: flex;
   text-align: center;
+  border: wheat;
 }
 table{
   border: 3px solid rgb(206, 2, 2);
@@ -92,11 +103,12 @@ table{
 }
 #contacts{
   color: aquamarine;
+  font-family: 'Lobster', cursive;
 
 }
 img{
-  display: inline-block;
-  justify-content: space-around;
+  padding-left: 60px;
+  text-align: center;
 }
 #copyright{
   color: aqua;
